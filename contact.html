@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <a href="contact.html"> Contact</a>
+        <a href="index.html"> About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <link rel="stylesheet" href="assets/css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+<header>
+        <h1>Yara Sbini</h1>
+        <h2>Contact</h2>
+    </header>
 <body>
-        <a href="contact.html">contact</a>
-        <a href="index.html">about</a>
-        <a href="portfolio.html">portfolio</a>
-    
+        <div id="after_submit"></div>
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+          <div class="row">
+            <label class="required" for="name"> Name:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+            <span id="name_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="email"> Email:</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+            <span id="email_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="message">Message:</label><br />
+            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+            <span id="message_validation" class="error_message"></span>
+          </div>
+            <input id="submit_button" type="submit" value="submit" />
+        </form>
 </body>
 </html>
