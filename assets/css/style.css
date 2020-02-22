@@ -3,6 +3,8 @@
     width: 200px;
   height: 200px;
   margin-right: 20px;
+  padding: 0 15px; 
+  float: left;
 }
 .image-box {
     width: 200px;
@@ -23,6 +25,7 @@
     padding: 10px;
     color: #fff;
     text-align: center;
+    float: left;
   }
   h1{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -38,3 +41,35 @@
       background-color:#ffffff;
       border-color:#dddddd;
   }
+.container{
+  padding: 200px;
+  margin: 150px;
+  background-image: url(https://lh3.googleusercontent.com/proxy/GvQCfYrxERnBhxegInb9-z3fRMOc_H3uKnQx4SCX0AyX57u7KbOUMcTXQPbBJDgRUsDkOJKCLgcadA55zz4ojze2SA0x8btRf76nl4XD_TdRJXMz6RMuuzrsN1mhk0zx0-aDMc52T-VKfjH4De8VxThDB1KD_vdnNfQgYqRDzoXqy4zUt1crp8zuIMp19FnbJ4XwFVgsxV2tRJ0SdSW_r2sc2jPrew);
+  background-color: black;
+ text-align: center;
+ position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.box{
+  color: rgb(187, 185, 185);
+}
+.back{
+  background-image: url(https://i.stack.imgur.com/pMAiU.jpg);
+  color: rgb(187, 185, 185);
+}
+#footer{
+  clear: both;
+height: 100px;
+/* width: 900px; */
+text-align: center;
+margin: 0px 0px 0px 0px;
+font-family: arial, helvetica;
+font-weight: bold ;
+font-size: 11px;
+background-color: black;
+}
+.nav{
+  background-color: white;
+}
